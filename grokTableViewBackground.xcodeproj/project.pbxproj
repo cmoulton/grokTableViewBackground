@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF38D811C2C8E9500F4C57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF38D801C2C8E9500F4C57C /* AppDelegate.swift */; };
+		CFF38D831C2C8E9500F4C57C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF38D821C2C8E9500F4C57C /* MasterViewController.swift */; };
+		CFF38D851C2C8E9500F4C57C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF38D841C2C8E9500F4C57C /* DetailViewController.swift */; };
+		CFF38D881C2C8E9500F4C57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF38D861C2C8E9500F4C57C /* Main.storyboard */; };
+		CFF38D8A1C2C8E9500F4C57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF38D891C2C8E9500F4C57C /* Assets.xcassets */; };
+		CFF38D8D1C2C8E9500F4C57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF38D8B1C2C8E9500F4C57C /* LaunchScreen.storyboard */; };
+		CFF38D971C2C90D400F4C57C /* GrokSwiftLogo500.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF38D961C2C90D400F4C57C /* GrokSwiftLogo500.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFF38D7D1C2C8E9500F4C57C /* grokTableViewBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grokTableViewBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF38D801C2C8E9500F4C57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF38D821C2C8E9500F4C57C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CFF38D841C2C8E9500F4C57C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CFF38D871C2C8E9500F4C57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF38D891C2C8E9500F4C57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF38D8C1C2C8E9500F4C57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF38D8E1C2C8E9500F4C57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF38D961C2C90D400F4C57C /* GrokSwiftLogo500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrokSwiftLogo500.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF38D7A1C2C8E9500F4C57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF38D741C2C8E9500F4C57C = {
+			isa = PBXGroup;
+			children = (
+				CFF38D7F1C2C8E9500F4C57C /* grokTableViewBackground */,
+				CFF38D7E1C2C8E9500F4C57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF38D7E1C2C8E9500F4C57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF38D7D1C2C8E9500F4C57C /* grokTableViewBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF38D7F1C2C8E9500F4C57C /* grokTableViewBackground */ = {
+			isa = PBXGroup;
+			children = (
+				CFF38D961C2C90D400F4C57C /* GrokSwiftLogo500.png */,
+				CFF38D801C2C8E9500F4C57C /* AppDelegate.swift */,
+				CFF38D821C2C8E9500F4C57C /* MasterViewController.swift */,
+				CFF38D841C2C8E9500F4C57C /* DetailViewController.swift */,
+				CFF38D861C2C8E9500F4C57C /* Main.storyboard */,
+				CFF38D891C2C8E9500F4C57C /* Assets.xcassets */,
+				CFF38D8B1C2C8E9500F4C57C /* LaunchScreen.storyboard */,
+				CFF38D8E1C2C8E9500F4C57C /* Info.plist */,
+			);
+			path = grokTableViewBackground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF38D7C1C2C8E9500F4C57C /* grokTableViewBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF38D911C2C8E9500F4C57C /* Build configuration list for PBXNativeTarget "grokTableViewBackground" */;
+			buildPhases = (
+				CFF38D791C2C8E9500F4C57C /* Sources */,
+				CFF38D7A1C2C8E9500F4C57C /* Frameworks */,
+				CFF38D7B1C2C8E9500F4C57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grokTableViewBackground;
+			productName = grokTableViewBackground;
+			productReference = CFF38D7D1C2C8E9500F4C57C /* grokTableViewBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF38D751C2C8E9500F4C57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Teak Mobile Inc";
+				TargetAttributes = {
+					CFF38D7C1C2C8E9500F4C57C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CFF38D781C2C8E9500F4C57C /* Build configuration list for PBXProject "grokTableViewBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF38D741C2C8E9500F4C57C;
+			productRefGroup = CFF38D7E1C2C8E9500F4C57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF38D7C1C2C8E9500F4C57C /* grokTableViewBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF38D7B1C2C8E9500F4C57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF38D8D1C2C8E9500F4C57C /* LaunchScreen.storyboard in Resources */,
+				CFF38D971C2C90D400F4C57C /* GrokSwiftLogo500.png in Resources */,
+				CFF38D8A1C2C8E9500F4C57C /* Assets.xcassets in Resources */,
+				CFF38D881C2C8E9500F4C57C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF38D791C2C8E9500F4C57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF38D851C2C8E9500F4C57C /* DetailViewController.swift in Sources */,
+				CFF38D831C2C8E9500F4C57C /* MasterViewController.swift in Sources */,
+				CFF38D811C2C8E9500F4C57C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFF38D861C2C8E9500F4C57C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF38D871C2C8E9500F4C57C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF38D8B1C2C8E9500F4C57C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF38D8C1C2C8E9500F4C57C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF38D8F1C2C8E9500F4C57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF38D901C2C8E9500F4C57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF38D921C2C8E9500F4C57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grokTableViewBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teakmobile.grokswift.grokTableViewBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFF38D931C2C8E9500F4C57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grokTableViewBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teakmobile.grokswift.grokTableViewBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF38D781C2C8E9500F4C57C /* Build configuration list for PBXProject "grokTableViewBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF38D8F1C2C8E9500F4C57C /* Debug */,
+				CFF38D901C2C8E9500F4C57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF38D911C2C8E9500F4C57C /* Build configuration list for PBXNativeTarget "grokTableViewBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF38D921C2C8E9500F4C57C /* Debug */,
+				CFF38D931C2C8E9500F4C57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF38D751C2C8E9500F4C57C /* Project object */;
+}
